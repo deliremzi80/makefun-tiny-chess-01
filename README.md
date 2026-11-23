@@ -13,5 +13,6 @@ A compact, high-performance chess engine written in under 4,096 bytes of Python 
 - **MVV-LVA Move Ordering**: Most Valuable Victim - Least Valuable Attacker move sorting for fast branch pruning.
 - **Quiescence Search**: Leaf node tactical resolution avoiding horizon blunders.
 - **Strict Size Constraint**: Fits entirely in `<= 4096 bytes` of standard-library Python.
+- **Deterministic Replay**: Fully reproducible search with no wall-clock variance.
 
 Visit [make.fun](https://make.fun) for competition details and live standings.
